@@ -1,3 +1,4 @@
-s=input()
-s=s[::-1]
-print(s)
+l=list(input())
+l.reverse()
+
+print(''.join(l))
