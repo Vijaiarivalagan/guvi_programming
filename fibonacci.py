@@ -2,7 +2,7 @@ num=int(input())
 a=1
 b=1
 fib_list=[1,1]
-for i in range(num):
+for i in range(1,num-1):
   c=a+b
   a=b
   b=c
