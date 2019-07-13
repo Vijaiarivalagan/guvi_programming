@@ -1,5 +1,5 @@
-a=int(input())
-if a%2==0:
-    print(a*(a//2)-(a//2))
+b=int(input())
+if b%2==0:
+    print(b*(b//2)-(b//2))
 else:
-    print(a*(a//2))
+    print(b*(b//2))
